@@ -146,7 +146,7 @@ of the cast function listed below to cast it to the actual type.
 | Y | parse_json('{"a1":100, "a b c":"2015-01-01"}')| dictionary|
 |Y.a1|parse_json('100')|dynamic|
 |Y["a b c"]| parse_json("2015-01-01")|dynamic|
-|todate(Y["a b c"])|datetime(2015-01-01)| datetime|
+|todatetime(Y["a b c"])|datetime(2015-01-01)| datetime|
 
 Cast functions are:
 
